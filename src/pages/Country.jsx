@@ -36,7 +36,7 @@ export const Country = ()=>{
     const filterCountries = countries.filter((country) => searchCountry(country) && filterRegion(country));
 
     return <section className="country-section">
-        <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />                
+        <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} countries={countries} setCountries={setCountries}/>                
         <ul className="grid grid-three-cols">
             {
                 filterCountries.map((curCountry, index)=>{

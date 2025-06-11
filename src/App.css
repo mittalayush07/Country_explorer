@@ -450,7 +450,7 @@ country Card
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
 
   & .container-card {
     padding: 0.8rem 2.4rem;
@@ -458,6 +458,7 @@ country Card
   }
 
   & input {
+    padding: 0.6rem 2.4rem;
     font-family: "urbanist";
     font-size: 1.55rem;
     font-weight: bold;
@@ -465,7 +466,9 @@ country Card
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
+    border-radius: 5rem;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    cursor: pointer;
   }
 
   & .select-section {
@@ -482,11 +485,13 @@ country Card
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
+    cursor: pointer;
 
     & option {
       background: linear-gradient(71deg, #080509, #1a171c, #080509);
       color: rgba(255, 255, 255, 0.8);
       padding: 0.6rem 2.4rem;
+      cursor: pointer;
       border-radius: 5rem;
     }
   }
