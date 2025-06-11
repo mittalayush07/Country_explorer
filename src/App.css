@@ -396,17 +396,17 @@ country Card
   margin-top: 3.2rem;
 }
 .country-section {
-  margin: 6.4rem auto 9.6rem auto;
+  margin: 0 auto 9rem auto;
   & .grid {
     gap: 3.2rem;
-    max-width: 132rem;
+    max-width: 110rem;
     margin: auto;
   }
 
   & img {
     width: 100%;
-    max-width: 50rem;
-    height: 16rem;
+    max-width: 40rem;
+    height: 15rem;
   }
 }
 
